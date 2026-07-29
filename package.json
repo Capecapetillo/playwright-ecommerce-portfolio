@@ -1,0 +1,22 @@
+{
+  "name": "playwright-ecommerce-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Capecapetillo/playwright-ecommerce-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Capecapetillo/playwright-ecommerce-portfolio/issues"
+  },
+  "homepage": "https://github.com/Capecapetillo/playwright-ecommerce-portfolio#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.62.0",
+    "@types/node": "^26.1.2"
+  }
+}
