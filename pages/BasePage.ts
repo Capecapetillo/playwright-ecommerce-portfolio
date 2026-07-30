@@ -8,7 +8,7 @@ export class BasePage {
   }
 
   async goto(path: string = '') {
-    await this.page.goto(`https://automationexercise.com${path}`);
+    await this.page.goto(path);
   }
 
   async getTitle(): Promise<string> {
