@@ -27,4 +27,10 @@ export class ApiClient {
       form: { email, password },
     });
   }
+
+  async createAccount(payload: Record<string, string>) {
+  return this.request.post(`${this.baseUrl}/createAccount`, {
+    form: payload,
+  });
+}
 }
