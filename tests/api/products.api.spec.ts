@@ -1,10 +1,7 @@
-import { test, expect } from '@playwright/test';
-import { ApiClient } from '../../api/ApiClient';
+import { test, expect } from '../../fixtures/test-fixtures';
 
 test.describe('Products API', () => {
-  test('GET productsList returns 200 and a non-empty product list', async ({ request }) => {
-    const apiClient = new ApiClient(request);
-
+  test('GET productsList returns 200 and a non-empty product list', async ({ apiClient }) => {
     const response = await apiClient.getProductsList();
 
     expect(response.status()).toBe(200);
